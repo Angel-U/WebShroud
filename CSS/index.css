@@ -122,7 +122,12 @@ a {
     float: 100px;
 }
 
-
+/*contenido agrupado*/
+.imagenesagrup {
+    width: 30%;
+    height: 30%;
+    float: 100px;
+}
 
 
 
