@@ -1,12 +1,8 @@
 body {
-    max-width: 1200px;
-    /* Ajusta el ancho máximo según tus preferencias */
     margin: 20px auto;
-    /* Centra el cuerpo y agrega un margen a los lados */
     font-family: Arial, sans-serif;
     font-size: 16px;
     background-color: #f0f0f0;
-
     margin-left: 15%;
     margin-right: 15%;
 
@@ -234,4 +230,9 @@ a {
     text-align: justify;
     margin: 0 auto;
 
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
 }
