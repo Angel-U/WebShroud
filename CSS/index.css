@@ -179,7 +179,6 @@ a {
 .navbar a {
     color: #ededed;
     background-image: linear-gradient(to right, #ff3c00, #222281);
-    /* Cambia los colores según tus preferencias */
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;
