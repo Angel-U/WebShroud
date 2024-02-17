@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,10 @@
     <link rel="icon" href="img\icon.png">
     <link rel="stylesheet" type="text/css" href="../CSS/index.css">
 </head>
+
 <body>
     <div class="navbar" id="navbar">
-        <img src="../img/Logo.jpeg" alt="" class="logo">
+        <img src="../img/Logo.jpeg" alt="" class="logo" href="Index.html">
         <a href="Index.html" class="inicio">WebShroud Inicio
         </a> <i class="fi fi-brands-facebook"></i>
         <i class="fi fi-brands-instagram"></i>
@@ -19,6 +21,7 @@
 
     <div class="navbar">
         <a href="tema1.html">1.1 Evolución de las aplicaciones web</a>
+        <a href="tema2.html">1.2 Arquitectura de las aplicaciones web</a>
         <a href="tema3.html">1.3 Tecnologías para el desarrollo web</a>
         <a href="Tema4.html">1.4 Planificación de las aplicaciones web</a>
     </div>
@@ -26,43 +29,57 @@
     <header>
         <h1>Arquitectura de Aplicaciones Web</h1>
     </header>
-        <p class="pcentro">La arquitectura web es la planificación y el diseño de los componentes técnicos, funcionales y visuales de un sitio web, 
-            antes de que sea diseñado, desarrollado e implementado. Los diseñadores y desarrolladores la utilizan como un medio para
-            ejecutar su trabajo.
-            Por lo tanto, se trata de la estructura conceptual de la World Wide Web —WWW—. La WWW o Internet es un medio en constante 
-            cambio que permite la comunicación entre diferentes usuarios y la interacción técnica (interoperabilidad) entre distintos 
-            sistemas y subsistemas.
-        </p>
-        <a class="t botoncentro2" href="https://rockcontent.com/es/blog/arquitectura-web/">Mas Información</a>
-        <br>
-        <br>
+    <p class="pcentro">La arquitectura web es la planificación y el diseño de los componentes técnicos, funcionales y
+        visuales de un sitio web,
+        antes de que sea diseñado, desarrollado e implementado. Los diseñadores y desarrolladores la utilizan como un
+        medio para
+        ejecutar su trabajo.
+        Por lo tanto, se trata de la estructura conceptual de la World Wide Web —WWW—. La WWW o Internet es un medio en
+        constante
+        cambio que permite la comunicación entre diferentes usuarios y la interacción técnica (interoperabilidad) entre
+        distintos
+        sistemas y subsistemas.
+    </p>
+    <a class="t botoncentro2" href="https://rockcontent.com/es/blog/arquitectura-web/">Mas Información</a>
+    <br>
+    <br>
     <main>
         <br>
         <section>
             <h2 class="h2">Componentes Principales</h2>
             <ul>
-                <p>Una aplicación Web  es  proporcionada  por  un  servidor  Web  y  utilizada  por  usuarios  que  se Conectan desde cualquier punto vía clientes Web 
-                   (browsers o navegadores). La arquitectura de un Sitio Web tiene tres componentes principales:</p>
+                <p>Una aplicación Web es proporcionada por un servidor Web y utilizada por usuarios que se Conectan
+                    desde cualquier punto vía clientes Web
+                    (browsers o navegadores). La arquitectura de un Sitio Web tiene tres componentes principales:</p>
                 <li>Un servidor Web</li>
                 <li>Una conexión de red</li>
                 <li>Uno o más clientes</li>
                 <br>
                 <div class="centro">
-                    <p class="pcentroa">Las páginas Web son el componente principal de una aplicación o sitio Web. Los browsers piden páginas 
-                        (almacenadas  o creadas  dinámicamente) con  información  a  los  servidores  Web.  En algunos  ambientes
-                        de  desarrollo de  aplicaciones  Web, las  páginas  contienen  código  HTML  y scripts dinámicos, que son ejecutados
-                        por el servidor antes de entregar la página. Una vez que se entrega una página, la conexión entre el browser 
-                        y el servidor Web se rompe, es decir que la lógica del negocio en el servidor solamente se activa por la ejecución 
-                        de los scripts de las páginas solicitadas por el browser (en el servidor, no en el cliente). Cuando el browser 
-                        ejecuta un script en el cliente, éste no tiene acceso directo a los recursos del servidor. Hay  otros  componentes  
-                        que no  son  scripts, como los  applets  (una aplicación  especial  que  se ejecuta  dentro de  un  navegador)  
-                        o los  componentes  ActiveX. Los  scripts  del  cliente  son  por lo general código JavaScript o VBSscript, 
-                        mezclados con código HTML. La colección de páginas son en una buena parte dinámicas (ASP, PHP, etc.),
+                    <p class="pcentroa">Las páginas Web son el componente principal de una aplicación o sitio Web. Los
+                        browsers piden páginas
+                        (almacenadas o creadas dinámicamente) con información a los servidores Web. En algunos ambientes
+                        de desarrollo de aplicaciones Web, las páginas contienen código HTML y scripts dinámicos, que
+                        son ejecutados
+                        por el servidor antes de entregar la página. Una vez que se entrega una página, la conexión
+                        entre el browser
+                        y el servidor Web se rompe, es decir que la lógica del negocio en el servidor solamente se
+                        activa por la ejecución
+                        de los scripts de las páginas solicitadas por el browser (en el servidor, no en el cliente).
+                        Cuando el browser
+                        ejecuta un script en el cliente, éste no tiene acceso directo a los recursos del servidor. Hay
+                        otros componentes
+                        que no son scripts, como los applets (una aplicación especial que se ejecuta dentro de un
+                        navegador)
+                        o los componentes ActiveX. Los scripts del cliente son por lo general código JavaScript o
+                        VBSscript,
+                        mezclados con código HTML. La colección de páginas son en una buena parte dinámicas (ASP, PHP,
+                        etc.),
                         y están agrupadas lógicamente para dar un servicio al usuario.
                     </p>
                     <br>
-                        <img src="../img/FotoJet.jpg" alt="" class="imagenesizq">
-                </div>   
+                    <img src="../img/FotoJet.jpg" alt="" class="imagenesizq">
+                </div>
             </ul>
         </section>
         <section>
@@ -91,7 +108,8 @@
             <p>Gran parte de la aplicación corre en el lado del cliente (fat client).</p>
             <p>Las capas son:</p>
             <ul>
-                <li>Cliente (fat client): La lógica de negocio está inmersa dentro de la aplicación que realiza el interfaz de usuario, en el lado del cliente.</li>
+                <li>Cliente (fat client): La lógica de negocio está inmersa dentro de la aplicación que realiza el
+                    interfaz de usuario, en el lado del cliente.</li>
                 <li>Servidor: Administra los datos.</li>
             </ul>
             <p>Las limitaciones de este modelo son:</p>
@@ -105,11 +123,15 @@
             <br>
             <img src="../img/images.jpg " alt="">
             <h3 class="h22">Modelo de tres Capas</h3>
-            <p>Esta diseñada para superar las limitaciones de las arquitecturas ajustadas al modelo de dos capas, introduce una capa 
-               intermedia (la capa de proceso) Entre  presentación y  los  datos, los  procesos  pueden  ser manejados  de forma 
-               separada a  la  interfaz de usuari o y a los datos, esta capa intermedia centraliza la lógica de negocio, haciendo la 
-               administración  más  sencil a, los  datos  se pueden integrar de  múltiples  fuentes, las  aplicaciones web actuales
-               se ajustan a este modelo.</p>
+            <p>Esta diseñada para superar las limitaciones de las arquitecturas ajustadas al modelo de dos capas,
+                introduce una capa
+                intermedia (la capa de proceso) Entre presentación y los datos, los procesos pueden ser manejados de
+                forma
+                separada a la interfaz de usuari o y a los datos, esta capa intermedia centraliza la lógica de negocio,
+                haciendo la
+                administración más sencil a, los datos se pueden integrar de múltiples fuentes, las aplicaciones web
+                actuales
+                se ajustan a este modelo.</p>
             <p>Las capas de este modelo son:</p>
             <ol>
                 <li>Capa de presentación (parte en el cliente y parte en el servidor)</li>
@@ -122,4 +144,5 @@
         <p>Información proporcionada por: Angel Uriel Macias Martin del Campo</p>
     </footer>
 </body>
+
 </html>
