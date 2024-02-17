@@ -58,6 +58,13 @@ div {
     color: #6a82fb;
 }
 
+.h22 {
+    margin-left: 10%;
+    margin-bottom: 0;
+    margin-top: 40px;
+    color: #c471ed;
+}
+
 .h2izq {
     margin-left: 10%;
     margin-bottom: 0;
@@ -91,6 +98,19 @@ div {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.pcentroa {
+    text-align: justify;
+    width: 80%;
+    background-color: #915fd337;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 700px;
     margin: 0 auto;
     font-family: Arial, sans-serif;
     line-height: 1.5;
@@ -257,6 +277,20 @@ div {
     margin-top: 15px;
 }
 
+.botoncentro2 {
+    text-align: center;
+    width: 20%;
+    background-image: linear-gradient(to right,#C6FFDD, #FBD786,#f7797d);
+    border-radius: 10px;
+    padding: 9px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    float: left;
+    margin-left: 47%;
+    margin-top: 20px;
+}
+
 
 
 .botonderecha {
@@ -276,6 +310,10 @@ div {
 
 .b:hover {
     color: #1a1348;
+}
+
+.t:hover {
+    color: #434343;
 }
 
 /*footer*/
