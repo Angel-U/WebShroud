@@ -169,6 +169,7 @@ div {
     padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     min-width: 100%;
+    border-radius: 8px;
 }
 
 
@@ -176,7 +177,6 @@ div {
 /* Barra de navegación */
 .navbar a {
     color: #ededed;
-    background-image: linear-gradient(to right, #101011, #202045);
     background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
     text-decoration: none;
     padding: 10px 15px;
@@ -184,7 +184,7 @@ div {
     transition: background-color 0.3s, color 0.3s;
     display: inline-block;
     vertical-align: top;
-    width: 300px;
+    width: auto;
 }
 
 
@@ -202,10 +202,23 @@ div {
     background-color: #e44100;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
-    float: left;
-    margin-right: 700px;
+    float: right;
+    margin-right: 900px;
     width: 10%;
 }
+
+.fi {
+    color: #fc5c7d;
+    padding: 5px;
+    margin-right: 5%;
+}
+
+
+.fi:hover {
+    color: #2a5dd4;
+}
+
+
 
 /*botones descubrir mas*/
 
