@@ -210,7 +210,6 @@ div {
 .fi {
     color: #fc5c7d;
     padding: 5px;
-    margin-right: 5%;
 }
 
 
@@ -225,7 +224,7 @@ div {
 .botonizq {
     text-align: center;
     width: 10%;
-    background-color: #ac83e2cf;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
     border-radius: 8px;
     padding: 7px;
     font-family: Arial, sans-serif;
@@ -240,7 +239,7 @@ div {
 .botoncentro {
     text-align: center;
     width: 10%;
-    background-color: #ac83e2cf;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
     border-radius: 8px;
     padding: 7px;
     font-family: Arial, sans-serif;
@@ -256,7 +255,7 @@ div {
 .botonderecha {
     text-align: center;
     width: 10%;
-    background-color: #ac83e2cf;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
     border-radius: 8px;
     padding: 7px;
     font-family: Arial, sans-serif;
@@ -268,9 +267,13 @@ div {
     margin-top: -170px;
 }
 
+.b:hover {
+    color: #1a1348;
+}
+
 /*footer*/
 footer {
-    background-color: #fc5c7d;
+    background-image: linear-gradient(to right, #101011, #202045);
     color: #ffffff;
     padding: 20px 0;
     margin-top: 30%;
@@ -303,6 +306,7 @@ footer {
 
 .footer-contact {
     margin-top: 20px;
+    color: #ededed;
 }
 
 .footer-bottom {
