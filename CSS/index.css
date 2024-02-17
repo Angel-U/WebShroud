@@ -216,8 +216,8 @@ div {
 
 
 .navbar a:hover {
-    background-color: #aaaaaa;
-    color: #00e4a3;
+    background-image: linear-gradient(to right, #6a82fb, #fc5c7d);
+    color: #090909;
 }
 
 .logo {
@@ -280,7 +280,7 @@ div {
 .botoncentro2 {
     text-align: center;
     width: 20%;
-    background-image: linear-gradient(to right,#C6FFDD, #FBD786,#f7797d);
+    background-image: linear-gradient(to right, #C6FFDD, #FBD786, #f7797d);
     border-radius: 10px;
     padding: 9px;
     font-family: Arial, sans-serif;
@@ -309,7 +309,8 @@ div {
 }
 
 .b:hover {
-    color: #1a1348;
+    color: #000000;
+    background-image: linear-gradient(to right, #6a82fb, #fc5c7d);
 }
 
 .t:hover {
