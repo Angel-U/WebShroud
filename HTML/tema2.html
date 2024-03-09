@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitectura de Aplicaciones Web</title>
+    <link rel="icon" href="img\icon.png">
+    <link rel="stylesheet" type="text/css" href="../CSS/index.css">
+</head>
+<body>
+    <header>
+        <h1>Arquitectura de Aplicaciones Web</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Componentes Principales</h2>
+            <ul>
+                <li>Un servidor Web</li>
+                <li>Una conexión de red</li>
+                <li>Uno o más clientes</li>
+            </ul>
+            <img src="../img/FotoJet.jpg" alt="" class="imagenesizq">
+        </section>
+        <section>
+            <h2>Lógica de Negocio</h2>
+            <p>Parte más importante de la aplicación.</p>
+            <p>Define los procesos que involucran a la aplicación.</p>
+            <p>Conjunto de operaciones requeridas para proveer el servicio.</p>
+
+            <img src="../img/aaw.png" alt="" class="imagenesagrup">
+        </section>
+        <section>
+            <h2>Administración de los Datos</h2>
+            <p>Manipulación de BD y archivos.</p>
+        </section>
+        <section>
+            <h2>Interfaz</h2>
+            <ul>
+                <li>Los usuarios acceden a través de navegadores, móviles, PDAs, etc.</li>
+                <li>Funcionalidad accesible a través del navegador.</li>
+                <li>Limitada y dirigida por la aplicación.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Modelo de Capas</h2>
+            <p>Una aplicación web se modela mediante lo que se conoce como modelo de capas.</p>
+            <h3>Modelo de dos Capas</h3>
+            <p>Gran parte de la aplicación corre en el lado del cliente (fat client).</p>
+            <p>Las capas son:</p>
+            <ul>
+                <li>Cliente (fat client): La lógica de negocio está inmersa dentro de la aplicación que realiza el interfaz de usuario, en el lado del cliente.</li>
+                <li>Servidor: Administra los datos.</li>
+            </ul>
+            <p>Las limitaciones de este modelo son:</p>
+            <ul>
+                <li>Es difícilmente escalable.</li>
+                <li>Número de conexiones reducida.</li>
+                <li>Alta carga de la red.</li>
+                <li>La flexibilidad es restringida.</li>
+                <li>La funcionalidad es limitada.</li>
+                <img src="../img/images.jpg " alt="" class="imagenesderecha">
+            </ul>
+            <h3>Modelo de tres Capas</h3>
+            <p>Esta diseñada para superar las limitaciones de las arquitecturas ajustadas al modelo de dos capas, introduce una capa intermedia (la capa de proceso) entre presentación y los datos.</p>
+            <p>Las capas de este modelo son:</p>
+            <ol>
+                <li>Capa de presentación (parte en el cliente y parte en el servidor)</li>
+                <li>Capa de proceso (servidor web)</li>
+                <li>Capa de datos (servidor de datos)</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>Información proporcionada por: Angel Uriel Macias Martin del Campo</p>
+    </footer>
+</body>
+</html>
