@@ -38,9 +38,9 @@ require __DIR__ . '/auth.php';
 
 Route::resource('clientes', UsersController::class);
 Route::resource('artistas', ArtistasController::class);
-Route::resource('citas', CitasController::class);
+Route::resource('citas', CitasController::class)->middleware(['auth']);
 Route::resource('categorias', CategoriasController::class)->middleware(['auth', 'verified', 'super-admin']);
-Route::resource('galerias', GaleriaArtistaController::class);
+Route::resource('galerias', GaleriaArtistaController::class)->middleware(['auth']);
 Route::resource('welcome1', WelcomeController::class);
 
 Route::post('/comentarios', [ComentaioController::class, 'store'])->name('comentarios.store');
