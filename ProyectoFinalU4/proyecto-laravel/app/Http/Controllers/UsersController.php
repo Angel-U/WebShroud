@@ -10,14 +10,22 @@ class UsersController extends Controller
 {
     public function index()
     {
-        if (Auth::user()->role == 1) {
+        // Verifica si el usuario está autenticado
+        if (!auth()->check()) {
+            return redirect()->route('login'); // Redirige al login si no está autenticado
+        }
+
+        // Usuario autenticado
+        $user = Auth::user();
+
+        if ($user->role == 1) {
             $users = User::all(); // Obtiene todos los usuarios si el rol es 1
             return view('clientes.index', compact('users'));
         } else {
-            $user = Auth::user(); // Obtiene solo el usuario autenticado
             return view('clientes.index', compact('user'));
         }
     }
+
 
     public function create()
     {
